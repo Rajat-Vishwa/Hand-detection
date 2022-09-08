@@ -39,3 +39,6 @@ while True:
 
     cv2.imshow("Win", image)
     cv2.waitKey(1)
+    
+    if cv2.waitKey(1) == 27:
+        exit()
